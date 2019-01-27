@@ -1,13 +1,9 @@
 package com.javatechei.app.git_demo;
 
-/**
- * Hello world!
- *
- */
 public class App {
 	public void adddata(String data) {
-		System.out.println("data=" + data);
-		if (data.equals("java techei")) {
+
+		if (data.equals(Constant.data_type)) {
 			System.out.println("well come");
 		}
 	}
